@@ -14,7 +14,6 @@ page = st.sidebar.selectbox("Select a Tool:", ["Price Calculator", "Salary Track
 
 st.sidebar.divider()
 st.sidebar.info("Developed by **MVP Sudarshan**")
-st.sidebar.write("Built with ❤️ using Streamlit")
 
 # --- PAGE 1: PRICE CALCULATOR ---
 if page == "Price Calculator":
